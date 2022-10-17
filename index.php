@@ -9,6 +9,6 @@ $test = new Show();
 echo $test->path()."<br>";
 echo "<br>".$test->test(" Norm");
 
-$test2 = new Honda("Honda","Cupe",1999);
+$test2 = new Honda(" 123","Cupe321123",1999);
 $test2->info();
 $test2->EngineOn();
